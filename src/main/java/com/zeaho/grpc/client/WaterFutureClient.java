@@ -6,7 +6,6 @@ import com.zeaho.proto.water.WaterReply;
 import com.zeaho.proto.water.WaterRequest;
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;
-import io.grpc.ManagedChannelBuilder;
 import io.grpc.StatusRuntimeException;
 
 import java.util.concurrent.ExecutionException;

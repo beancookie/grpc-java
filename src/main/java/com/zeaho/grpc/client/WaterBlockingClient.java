@@ -6,12 +6,8 @@ import com.zeaho.proto.water.WaterReply;
 import com.zeaho.proto.water.WaterRequest;
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;
-import io.grpc.ManagedChannelBuilder;
 import io.grpc.StatusRuntimeException;
-import io.grpc.stub.StreamObserver;
 
-import java.util.Objects;
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;

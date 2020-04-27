@@ -24,7 +24,7 @@ public class BuildClientUtils {
 
     public BuildClientUtils invoke() {
         // Access a service running on the local machine on port 50051
-        String target = "localhost:50051";
+        String target = "127.0.0.1:50051";
         // Allow passing in the price and target strings as command line arguments
         if (args.length > 0) {
             if ("--help".equals(args[0])) {
